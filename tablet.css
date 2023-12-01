@@ -1,0 +1,142 @@
+/* Responsive design for Tablet view */
+
+@media only screen and (max-width: 768px) {
+
+/* container1 */
+
+.hero-section{
+   margin-left: 30px;
+
+}
+.nav-list ul{
+    display: none;
+}
+
+.hero-box{
+    margin-left: 0px;
+}
+
+/* container2 */
+.container-img .images{
+   margin-left: 0px;
+}
+.images img{
+    width: 50px;
+    margin-left: 80px;
+}
+
+/* container4 */
+.container4-content1{
+    display: none;
+}
+.container4-content2{
+    margin-left: 0px;
+}
+
+/* container5 */
+
+.container5-content{
+    margin-left: 30px;
+    width: 700px;
+}
+
+/* container6 */
+.container6-content1{
+    margin-left: 20px;
+  
+}
+.content6-cards{
+    animation: none;
+    overflow:scroll;
+}
+.container6-content2{
+    margin-left: 0px;
+}
+
+/* container7 */ 
+
+
+.container7{
+    height: 1200px;
+}
+
+.faq-left li{
+    width: 280px;
+    height: 70px;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-left: 60px;
+    text-align: left;
+}
+.faq-right li{
+    width: 280px;
+    height: 70px;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-left: 70px;
+    text-align: left;
+}
+.li-para{
+    width: 270px;
+    height: auto;
+    margin-left: 70px;
+}
+.li-para1{
+    width: 260px;
+    height: auto;
+    margin-left: 100px;
+}
+
+
+
+.faq-box{
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+}
+.faq-head{
+    width: 200px;
+}
+
+.faq-para{
+    width: 165px;
+    margin-bottom: 20px;
+}
+.faq-button{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+}
+.faq-img img{
+    width: 25px;
+   margin-left: -70px;
+    margin-top: 142px;
+}
+
+/* container8 */
+
+.footer-left{
+    width: 100px;
+    height: 50px;
+}
+.footer-right{
+    margin-left: 150px;
+}
+
+.right-2{
+    margin-left: 40px;
+}
+.right-3{
+    margin-left: 40px;
+}
+
+.cp-left{
+     width: 350px !important;
+    font-size: 12px;
+}
+.cp-right {
+    margin-left: 160px;
+}
+
+  
+        }

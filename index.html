@@ -5,52 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <title>pickmyad</title> <!-- ========== want to change the title linke in the browser ========== -->
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <title>pickmyad</title> <!-- ========== want to change the title like in the browser ========== -->
 </head>
 <body>
     <div class="container">
     <!-- ========== Start container 1 ========== -->
     <div class="container1">
         <div class="content">
-            <div class="nav-content">
+            <div class="nav-content sticky" id="navbar">
                 <div class="logo">
-                    <img src="./assets/images/logo.png" alt="Logo" width="150px">
+                    <img src="./assets/images/menu.png"  class="menu" alt="menu">
+                    <img src="./assets/images/logo.png" alt="Logo" width="154px">
                 </div>
                 <div class="nav-list">
                     <ul>
-                        <li><a href="#home">I'm a Creator</a></li>
-                        <li><a href="#home">Case Studies</a></li>
+                        <li><a href="https://pickmy.link/">I'm a Creator</a></li>
+                        <li><a href="https://www.blog.pickmyad.com/case-studies">Case Studies</a></li>
                     </ul>
+                    <div class="search-top" id="searchBar">
+                        <input type="text" placeholder="Search by category">
+                        <span class="s-line"></span>
+                        <img src="./assets/images/search-img.svg" alt="search">
+    
+                    </div>
                 </div>
+                
                 <div class="register">
                     <span class="sign-in">Sign in</span>
                     <span class="sign-up">Sign up</span>
+                    <img class="search-bar" src="./assets/images/search-img.svg" alt="search" width="30">
                 </div>
 
             </div>
-            <div class="main-content">
-                <div class="hero-section">
-                    <p><strong>Discover the</strong> perfect Influencer <strong>for your Brand</strong></p>
+            <div class="main-content" id="main">
+                <div class="hero-section" id="hero-content">
+                    <p><span class="sub-para">Discover the</span> perfect Influencer <span class="sub-para">for your Brand</span></p>
                 </div>
                 <div class="hero-box">
                     <div class="search-box">
                         <div class="input-box">
-                            <span style="margin-left: 10px;"><img src="./assets/images/search (1).png" alt="search" width="12"></span>
+                            <span><img src="./assets/images/search-img.svg" alt="search" width="15"></span>
                             <input type="text" placeholder="Search by category">
                             <span class="search">Search</span>
                         </div>
                        
                     <div class="box-content" style="color: white;">
+                        <p class="content1-head">Popular category:</p>
+                        <p class="content1-title hidden">Popular category:</p>
+                    <div class="box-con">
                         <div class="content1">
-                            <p>Popular category:</p>
-                            <p class="con">🍿Enterntainment</p>
-                            <p class="con">👗Fashion/LIfestyle</p>
-                            <p class="con">🍔Food</p>
+                           
+                            <p class="con p1">🍿 Entertainment</p>
+                            <p class="con p2">👗 Fashion/LIfestyle</p>
+                            <p class="con p3">🍔 Food</p>
+                    
                         </div>
                         <div class="content2">
-                            <p class="con1">🥻Beauty,Cosmetic & Personal care</p>
-                            <p class="con1">✈️Travel</p>
+                            <p class="con1">💄 Beauty,Cosmetic & Personal care</p>
+                            <p class="con1">✈️ Travel</p>
                         </div>
+                    </div>
+                       
                     </div>
                    
                     </div>
@@ -65,7 +82,7 @@
     <!-- ========== Start Container2 ========== -->
     <div class="container2">
         <div class="container-head">
-            <h1>Trusted by 500+ Brands</h1>
+            <p>Trusted by 500+ Brands</p>
         </div>
         <div class="container-img">
            <div class="images">
@@ -80,7 +97,7 @@
     <!-- ========== End Container2 ========== -->
 
     <!-- ========== Start Container3 section ========== -->
-    <div class="container3">
+    <div class="container3 scroll-1" id="border">
         <div class="container3-content">
             <div class="container3-head">
                 <h2 class="head3">COLLABORATE WITH</h2>
@@ -88,10 +105,246 @@
                 <h1 class="sub-head1">Influencer</h1>
             </div>
             <div class="container3-para">
-                <p>Discover, Connect and Collaborate with Your Perfect influencers Accross instagram and youtube</p>
+                <p>Discover, Connect and Collaborate with Your Perfect influencers Accross Instagram and youtube</p>
             </div>
             <div class="container3-button">
-                <a href="#"><button>View similar influencers</button></a>
+                <a href="#"><button>View similar influencers
+                    <div class="sliding"></div>
+                </button></a>
+            </div>
+        </div>
+
+        <div class="container3-content1">
+            <div class="content1-influencer1">
+                  
+                <!-- ========== Start car1 ========== -->
+                <div class="influ1-content">
+                    <div class="card1-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ1_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ1_pickmyad.webp" alt="in-1">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Entertainment</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Vivek Jadoo</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End car1 ========== -->
+                    
+                <!-- ========== Start card2 ========== -->
+                <div class="influ1-content">
+                    <div class="card2-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ2_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ2_pickmyad.webp" alt="in-2">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Foods | Vlog</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Peppa Foodie</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End card2 ========== -->
+
+                <!-- ========== Start card3 ========== -->
+                <div class="influ1-content">
+                    <div class="card3-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ3_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ3_pickmyad.webp" alt="in-2">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Food</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Idris Explore</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End card3 ========== -->
+
+                <!-- ========== Start card4 ========== -->
+                <div class="influ1-content">
+                    <div class="card4-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ4_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ4_pickmyad.webp" alt="in-2">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Cooking</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Chef Deena's..</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End card4 ========== -->
+
+                <!-- ========== Start card5 ========== -->
+                <div class="influ1-content">
+                    <div class="card5-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ5_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ5_pickmyad.webp" alt="in-2">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Vlog</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Namma Ooru...</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End card5 ========== -->
+
+                <!-- ========== Start card6 ========== -->
+                <div class="influ1-content">
+                    <div class="card6-inner">
+                        <div class="inner-img">
+                            <img class="big-img" src="./assets/images/influ10_pickmyad.webp" alt="influ1">
+                            <div class="images-content">
+                                <img class="profile-img" src="./assets/images/influ10_pickmyad.webp" alt="in-2">
+                                <div class="influ-bottom">
+                                    <div class="influ-title">
+                                        <p>Vlog</p>
+                                    </div>
+                                    <div class="head-rate">
+                                        <p class="influ-name">Namma Ooru...</p>
+                                        <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== End card6 ========== -->
+
+
+            </div>
+
+            <div class="conten1-influencer2">
+
+
+                    <div class="influ2-content">
+                        <div class="card7-inner">
+                            <div class="inner-img">
+                                <img class="big-img" src="./assets/images/influ6_pickmyad.webp" alt="influ1">
+                                <div class="images-content">
+                                    <img class="profile-img" src="./assets/images/influ6_pickmyad.webp" alt="in-3">
+                                    <div class="influ-bottom">
+                                        <div class="influ-title">
+                                            <p>Technology</p>
+                                        </div>
+                                        <div class="head-rate">
+                                            <p class="influ-name">Bussines Tam..</p>
+                                            <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- ========== Start card2 ========== -->
+                    <div class="influ2-content">
+                        <div class="card8-inner">
+                            <div class="inner-img">
+                                <img class="big-img" src="./assets/images/influ7_pickmyad.webp" alt="influ1">
+                                <div class="images-content">
+                                    <img class="profile-img" src="./assets/images/influ7_pickmyad.webp" alt="in-2">
+                                    <div class="influ-bottom">
+                                        <div class="influ-title">
+                                            <p>Foods</p>
+                                        </div>
+                                        <div class="head-rate">
+                                            <p class="influ-name">Heema Kitchen</p>
+                                            <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ========== End card2 ========== -->
+    
+                    <!-- ========== Start card3 ========== -->
+                    <div class="influ2-content">
+                        <div class="card9-inner">
+                            <div class="inner-img">
+                                <img class="big-img" src="./assets/images/influ8_pickmyad.webp" alt="influ1">
+                                <div class="images-content">
+                                    <img class="profile-img" src="./assets/images/influ8_pickmyad.webp" alt="in-2">
+                                    <div class="influ-bottom">
+                                        <div class="influ-title">
+                                            <p>Cooking</p>
+                                        </div>
+                                        <div class="head-rate">
+                                            <p class="influ-name">Bannana Leaf..</p>
+                                            <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ========== End card3 ========== -->
+    
+                    <!-- ========== Start card4 ========== -->
+                    <div class="influ2-content">
+                        <div class="card10-inner">
+                            <div class="inner-img">
+                                <img class="big-img" src="./assets/images/influ9_pickmyad.webp" alt="influ1">
+                                <div class="images-content">
+                                    <img class="profile-img" src="./assets/images/influ9_pickmyad.webp" alt="in-2">
+                                    <div class="influ-bottom">
+                                        <div class="influ-title">
+                                            <p>Foods | Vlog</p>
+                                        </div>
+                                        <div class="head-rate">
+                                            <p class="influ-name">Peppa Foodie</p>
+                                            <p class="influ-rate"><span><img src="./assets/images/star1_bg.png" alt="star" width="20"></span>4.7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ========== End card4 ========== -->
+
+               
+
+                
+
             </div>
         </div>
 
@@ -104,11 +357,13 @@
         <div class="container4-content1">
             <div class="content1-images">
                 <div class="image1">
-                    <img src="./assets/images/meet1_pickmyad.png" alt="meet">
+                    <img class="meet" src="./assets/images/meet1_pickmyad.png" alt="meet">
+                    <span class="wave"><img class="youtube" src="./assets/images/youtube.png" alt="youtube" width="65"></span>
                     <p>Brands</p>
                 </div>
                 <div class="image2">
-                    <img src="./assets/images/girl_pickmyad.png" alt="girl">
+                    <img class="girl" src="./assets/images/girl_pickmyad.png" alt="girl">
+                    <span class="wave1"><img class="youtube1" src="./assets/images/youtube.png" alt="youtube" width="65"></span>
                     <p>Influencers</p>
                 </div>
             </div>
@@ -118,7 +373,7 @@
                 <p class="head4">HOW IT WORKS?</p>
             </div>
             <div class="container4-subhead">
-                <h2>Easily browse,connect,<br>and collaborate<br>securely on our<br>platform.</h2>
+                <h2>Easily browse, connect, and collaborate<br>securely on our<br>platform.</h2>
             </div>
             <div class="container4-para">Effortlessly find the perfect influencers for your brand and collaborate with confidence on our secure platform.</div>
             <div class="container4-stats">
@@ -133,6 +388,9 @@
                 <div class="stat-box">
                     <span>600+</span>
                     <p>Successful Campaigns</p>
+                </div>
+                <div class="stat-button">
+                    <button>Join with us <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span></button>
                 </div>
             </div>
         </div>
@@ -176,7 +434,7 @@
                 <p class="head6">DISCOVER WHAT YOU CAN EXPERIENCE</p>
             </div>
             <div class="container6-subhead">
-                <h2>Inspiring Stories</h2>
+                <p>Inspiring Stories</p>
             </div>
             <div class="container6-text">
                 <p>"Explore Case Studies Highlighting Successful Influencer Campaigns"</p>
@@ -202,6 +460,7 @@
                     </div>
                     <div class="readmore1">
                         <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
                     </div>
 
                 </div>
@@ -221,6 +480,7 @@
                     </div>
                     <div class="readmore2">
                         <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
                     </div>
 
                 </div>
@@ -240,6 +500,67 @@
                     </div>
                     <div class="readmore3">
                         <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
+                    </div>
+
+                </div>
+
+                <div class="card1">
+                    <div class="card1-image">
+                        <img src="./assets/images/millap.png" alt="case study 1 img" width="100">
+                    </div>
+                    <div class="card1-head">
+                        <span>CROWDFUNDING PLATFORM</span> 
+                    </div>
+                    <div class="card1-title">
+                        <span>Millap</span>
+                    </div>
+                    <div class="card1-body">
+                        <p>Pickmyad's influencer marketing campiagn helped Millap raised more funding</p>
+                    </div>
+                    <div class="readmore1">
+                        <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
+                    </div>
+
+                </div>
+
+                <div class="card2">
+                    <div class="card1-image">
+                        <img src="./assets/images/shorty.png" alt="case study 2 img" width="60">
+                    </div>
+                    <div class="card2-head">
+                        <span>OTT PLATFORM</span> 
+                    </div>
+                    <div class="card2-title">
+                        <span>Shortfundly</span>
+                    </div>
+                    <div class="card2-body">
+                        <p>Unveiling Shortfundly's Success with influencer marketing</p>
+                    </div>
+                    <div class="readmore2">
+                        <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
+                    </div>
+
+                </div>
+
+                <div class="card3">
+                    <div class="card1-image">
+                        <img src="./assets/images/stucred_pma.png" alt="case study 3 img" width="100">
+                    </div>
+                    <div class="card3-head">
+                        <span>STUDENTS LOAN APP</span> 
+                    </div>
+                    <div class="card3-title">
+                        <span>Stucred</span>
+                    </div>
+                    <div class="card3-body">
+                        <p>Empowering students:Stucred's Successful influencer marketing campiagn with PickMyAd</p>
+                    </div>
+                    <div class="readmore3">
+                        <p>Read More</p>
+                        <span><img src="./assets/images/right-arrow.png" alt="right_arrow" width="20"></span>
                     </div>
 
                 </div>
@@ -254,20 +575,88 @@
         <!-- ========== Start Container7 section ========== -->
         <div class="container7">
             <h1 class="faq-title">FAQ'S</h4>
+            <h1 class="faq-title1">Frequently Asked Questions.</h4>
             <div class="faq-section">
                 <ul class="faq-left">
-                    <li>How do I book Influencers for Promotion? <span><img src="./assets/images/down.png" alt="down arrow" width="20"></span></li>
-                    <li>Why KYC verification & completion is needed? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>What are documents needed for KYC completion? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>I have signed up on PickMyAd.com, what do I do next? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>How much Will I be paid for my work? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>When will I be paid for my work? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
+                    <div class="faq-list">
+                    <li class="faq-item" id="list-item">How do I book Influencers for Promotion? <span> <img src="./assets/images/down arrow1.svg" alt="down arrow" width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para" >
+                        Register as a brand and complete your KYC process to access all Influencer pricing. Create your campaign, explore Influencers, add them to your wish list, and request their pricing. Once you receive the pricing details, you can easily book your chosen Influencer by making a secure payment through various methods (credit cards, UPI, NEFT, etc.). Collaboration begins once the payment is confirmed. Influencers receive payment from PickMyAd's escrow only after successful content publishing. For more information Read refund policy & cancellation policy here.
+                    </div>
+                </div>
+                <div class="faq-list">
+                    <li class="faq-item"  id="list-item">Why KYC verification & completion is needed? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                   <div class="li-para">
+                    KYC completion is absolutely necessary for any brand without which they can’t view any Influencer pricing for booking. This also helps Influencers to work with you more confidently.
+
+                   </div>
+                </div>
+                <div class="faq-list">
+                    
+                    <li class="faq-item"  id="list-item">What are documents needed for KYC completion? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para">
+                        Brands need to submit their company proof like Company cancelled Cheque / Bank Statement / Registration Certificate (anyone), Company Pan & Signatory Pan (both), and GSTIN certificate (if registered).
+                    </div>
+                </div>
+                <div class="faq-list">
+
+                
+                    <li class="faq-item"  id="list-item">I have signed up on PickMyAd.com, what do I do next? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para">
+                        Complete your profile which helps brands in booking you. Then, Sit back and do your content creation, we will intimate you through email & Whatsapp in case of brand booking happens. Happy Influencing!
+                    </div>
+                </div>
+                <div class="faq-list">
+
+               
+                    <li class="faq-item"  id="list-item">How much Will I be paid for my work? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para">
+                     It is completely free to sign up for both influencer and brands . PickMyAd will charge 10% from the brands upon successful completion of each campaign.
+                    </div>
+                </div>
+                <div class="faq-list">
+
+               
+                    <li class="faq-item"  id="list-item">When will I be paid for my work? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para">
+                        PickMyAd automatic system will compensate the amount you agreed with the brand within 24 hours of publishing the content and pasting the link in the particular booking inside the campaign dashboard.
+                    </div>
+                </div>
                 </ul>
                 <ul class="faq-right">
-                    <li>Is there a way to delete my account in PickMyAd? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>How to Join PickMyAd as an Influencer? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>How does PickMyAd work for Influencer? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
-                    <li>Will PickMyAd have access to post on my Social Media Accounts? <span><img src="./assets/images/down.png" alt="down arrow"  width="20"></span></li>
+                    <div class="faq-list">
+
+                  
+                    <li class="faq-item"  id="list-item">Is there a way to delete my account in PickMyAd? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para1">
+                       Oops, we’re sorry that you want to leave, but we respect your decision. sure in case you do want to delete you can delete your account form the setting sections of your PickMyAd account.
+                    </div>
+                </div>
+                <div class="faq-list">
+
+              
+                    <li class="faq-item"  id="list-item">How to Join PickMyAd as an Influencer? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para1">
+                        Sign up as an Influencer on <a href="https://pickmyad.com/">www.pickmyad.com/signup.</a> Go to "Brand Collab" module in the apps section and enable the module and Link your profile by including the URLs of your social media accounts, such as your YouTube channel and Instagram profile. Configure your account and let the brands easily book your services.
+                    </div>
+                </div>
+                <div class="faq-list">
+
+               
+                    <li class="faq-item"  id="list-item">How does PickMyAd work for Influencer? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para1">
+                       "PickMyAd collaborates with top-notch, KYC-verified brands. Only verified Brands can select you, request your pricing, and propose collaborations. You decide to accept or decline. Upon agreement, brands book your service in advance, empowering you to create compelling content. Once you publish the content, payment is securely transferred to you through PickMyAd's Escrow system."
+                    </div>
+                </div>
+                <div class="faq-list">
+
+                
+                    <li class="faq-item"  id="list-item">Will PickMyAd have access to post on my Social Media Accounts? <span><img src="./assets/images/down arrow1.svg" alt="down arrow"  width="15" style="margin-top: 15px;"></span></li>
+                    <div class="li-para1">
+                        Absolutely not. There's no need to link your account. Simply provide your social media profile URL to PickMyAd. Rest assured, we only access your public information. This process is highly secure and widely used by various organizations, ensuring your privacy and security remain intact at all times.
+                    </div>
+                </div>
+            
                    <div class="faq-box">
                     <div class="faq-box-content">
                         <p class="faq-head">Still Have Questions?
@@ -280,6 +669,7 @@
                         <img src="./assets/images/faq-girl.png" alt="girl" width="90">
                     </div>
                    </div>
+                  
                 </ul>
             </div>
         </div>
@@ -320,7 +710,16 @@
             </div>
         </div>
         <!-- ========== End Container8 section ========== -->
+        <div class="watsap">
+            <img src="./assets/images/social.png" alt="watsap" width="30">
+            <span>Message Us</span>
+        </div>
         
 </div>
+
+
+
+      <script src="./script.js"></script>
+      <script src="./con3.js"></script>
     </body>
 </html>
