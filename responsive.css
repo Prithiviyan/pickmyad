@@ -52,9 +52,10 @@
           height: 50px;
     }
     .hero-section p{
-        margin-top: 200px;
+        width: 300px;
+        margin-top: 220px;
         font-size: 1.2rem;
-        margin-left: 50px;
+        margin-left: 0px;
         line-height: 20px;
     }
     .sub-para{
@@ -68,17 +69,17 @@
         height: 200px;
     }
     .hero-box{
-        padding: 2px;
+        padding: 10px 20px;
         margin-top: 150px;
-        margin-left: 10px;
+        margin-left: 50px;
         border-radius: 35px;
-        width: 409px;
-        height: 225px;
+        width: 419px;
+        height: 215px;
     }
     .search-box .input-box{
         width: 385px;
-        margin-left: 10px;
-        margin-top: 5px;
+        margin-left: 0px;
+        /* margin-top: 5px; */
         height: 52px;
     }
     .input-box span{
@@ -92,15 +93,16 @@
         background-color: #BF0000;
         width: 115px;
         height: 42px;
-        padding: 10px;
+        padding: 8px;
         margin-right: 3px;
+        font-size: 14px !important;
     }
     .search-box input::placeholder{
         font-size: 16px;
     }
     .box-content{
         width: 390px;
-        margin-left: 5px;
+        margin-left: 0px;
         margin-top: 30px;
     }
     .content1-head{
@@ -119,7 +121,7 @@
         width: 440px;
         height: 30px;
         padding-right: 40px;
-      margin-left: -10px;
+      margin-left: -30px;
       display: flex;
       margin-top: 40px;
       font-size: 12px;
@@ -127,6 +129,32 @@
     .p1{
         width: 137px;
         height: 27px;
+        font-size: 12px !important;
+        
+    }
+    .p2{
+        width: 137px;
+        height: 27px;
+        font-size: 12px !important;
+        
+    }
+    .p3{
+        width: 70px !important;
+        height: 27px;
+        font-size: 12px !important;
+        
+    }
+    .content1 .con{
+        width: 140px;
+    }
+
+    .con1{
+        font-size: 12px !important;
+    }
+
+    .box-content .content2{
+       margin-top: -3px;
+       margin-left: -15px;
     }
    
    
@@ -141,27 +169,26 @@
         font-weight: 700;
     }
     
-    .container-img{
-        width: 450px;
-        margin-left: -110px;
-      
-       
-     
-    }
     .images{
         display: flex;
         flex-wrap: wrap;
-        width: 900px;
+        width: 425px;
         height: 100px;
         padding: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
+        justify-content: space-between;
+       margin-top: -20px;
+       margin-right: 20px;
       
     }
 
     .images img{
-        width: 70px;
-        margin-left: 30px;
-
+        width: 76px !important;
+        height: 18px;
+        margin-left: 20px !important;
+        
+        
+        
     }
     /***** End container2 *****/
 
@@ -195,19 +222,22 @@
     }
     .content1-influencer1{
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        /* flex-direction: row; */
+        /* flex-wrap: nowrap; */
         width: 400px;
         height: 380px;
-        overflow: auto;
+     overflow-x: scroll;
         scroll-behavior: smooth;
         margin-top: -40px;
         animation: none;
+       
     }
     .influ1-content{
         width: 700px;
-        height: 400px;
+        height: 370px;
         margin-left: 25px;
+       
+     
      
         
     }
@@ -253,6 +283,10 @@
         text-align: center;
     }
 
+    .content1-influencer2{
+        display: none;
+    }
+
     /* .content1-influencer2{
         display: flex;
         flex-direction: row;
@@ -287,12 +321,17 @@
         margin-left: 10px;
         margin-top: 0px;
     }
+    .head4{
+        margin-left: 10px;
+    }
     .container4-subhead{
         width: 405px;
+        margin-left: 15px;
     }
     .container4-para{
         font-size: 16px;
         width: 410px;
+        margin-left: 15px;
     }
     .container4-stats{
         display: flex;
@@ -313,7 +352,7 @@
 
     }
     .stat-button{
-         margin-right: 10px;
+      margin-left: 10px;
          position: relative;
     }
 
@@ -355,7 +394,7 @@
         width: 700px;
         height: 580px;
         margin-top: 80px;
-        margin-left: 0px;
+        margin-left: 0px !important;
         border-radius: 0%;
         padding: 32px 20px 48px ;
     }
@@ -397,7 +436,7 @@
     }
     
     .content6-cards{
-        margin-left: -35px;
+     
         width: 100vw;
         animation: none;
         overflow: scroll;
@@ -417,14 +456,14 @@
         width: 450px;
         height: 310px;
         margin-right: 0px;
-        margin-left: 25px;
+        margin-left: 15px;
         
     }
     .content6-cards .card3{
         width: 450px;
         height: 310px;
         margin-right: 0px;
-        margin-left: 25px;
+        margin-left: 15px;
         
     }
     .readmore1{
@@ -446,26 +485,29 @@
     }
     .faq-title1{
         display: block;
-        font-size: 43px;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: fraunces,serif;
     }
     .faq-section{
         width: 426px;
         height: 1295px;
         padding: 0px;
-        margin-top: 15px;
+        margin-top: 30px;
         display: block;
     }
     .faq-left li{
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 12px;
-        width: 385px;
-        height: 60px;
-        padding: 16px;
+        margin-left: 0px !important;
+        width: 385px !important;
+        height: 55px !important;
+        padding: 16px 24px !important;
         font-size: 16px;
         text-align: justify;
     }
     .li-para{
-        width: 397px;
+        width: 385px !important;
         height: 342px;
         font-size: 16px;
         color: #281713B3;
@@ -473,10 +515,11 @@
         padding: 0px 20px 30px;
         font-family: figtree,sans-serif;
         line-height: 1.5rem;
+        margin-left: 0px !important;
     }
 
-    .li-para1{
-        width: 397px;
+    /* .li-para1{
+        width: 385px !important;
         height: 342px;
         font-size: 16px;
         color: #281713B3;
@@ -484,42 +527,53 @@
         padding: 0px 20px 30px;
         font-family: figtree,sans-serif;
         line-height: 1.5rem;
-    }
+        margin-left: 0px !important;
+    } */
     .faq-right{
         padding-left: 0px;
     }
     .faq-right li{
-        width: 385px;
-        height: 61px;
+        margin-top: 0px;
+        margin-bottom: 12px;
+        margin-left: 0px !important;
+        width: 385px !important;
+        height: 55px !important;
+        padding: 16px 24px !important;
         font-size: 16px;
-        padding: 16px 24px;
         text-align: justify;
     }
     .faq-box{
-        width: 386px;
-        height: 300px;
+        width: 386px !important;
+        height: 280px !important;
         border: none;
-    border-bottom: black solid 1px;
-    border-radius: 0;
+        border-bottom: black solid 1px;
+        border-radius: 0;
+        margin-left: 0px !important;
+      
+   
       
     }
     .faq-head{
         font-weight: bolder;
         font-family: fraunces,serif;
+        /* margin-left: -90px !important; */
     }
     .faq-para{
-        width: 330px;
+        width: 335px !important;
         height: 114px;
         padding: 10px 0px 60px;
+        /* margin-left: -90px; */
     }
     .faq-img img{
-        margin-top: 130px;
-        margin-left: -110px;
+        width: 100px !important;
+        margin-top: 120px !important;
+        margin-left: -130px !important;
        
     }
     
     .faq-button{
-        margin-top: 0px;
+        margin-top: -100px !important;
+        /* margin-left: -100px !important; */
     }
     /***** End container7 *****/
 

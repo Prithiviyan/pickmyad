@@ -23,3 +23,4 @@ influ1Container.addEventListener("mouseout",()=>{
     influ2Container.addEventListener("mouseout",()=>{
         influ2Container.style.animationPlayState="running";
         })
+        

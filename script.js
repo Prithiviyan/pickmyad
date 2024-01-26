@@ -46,31 +46,89 @@ window.addEventListener("scroll",()=>{
 // container7 card According
 
 
-var items=document.querySelectorAll(".faq-list")
-var para = document.querySelector(".li-para")
+// var items=document.querySelectorAll(".faq-list")
+// var para = document.querySelector(".li-para")
 
-items.forEach(li=>{
-  var lichild=li.children[0];
-  var lispan=li.children[1];
-  let list=true;
+// items.forEach(li=>{
+//   var lichild=li.children[0];
+//   var lispan=li.children[1];
+//   let list=true;
  
-  lichild.addEventListener("click",()=>{
+//   lichild.addEventListener("click",()=>{
    
 
-    if (list) {
+//     if (list) {
 
-      lispan.style.display="block";
-      list=false;
-      console.log(list);
-  } 
-  else{
-    lispan.style.display="none";
+//       lispan.style.display="block";
+//       list=false;
+//       console.log(list);
+//   } 
+//   else{
+//     lispan.style.display="none";
 
-    list=true;
+//     list=true;
+//   }
+//  })
+
+// })
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var paragraphs = document.querySelectorAll('.li-para');
+  
+  function showParagraph(index) {
+    paragraphs.forEach(function(para, i) {
+      if (i === index) {
+        para.style.display = 'block';
+      } else {
+        para.style.display = 'none';
+      }
+    });
   }
- })
 
-})
+  
+
+  var listItems = document.querySelectorAll('.faq-item');
+
+  listItems.forEach(function(item, index) {
+    item.addEventListener('click', function() {
+      showParagraph(index);
+    });
+  });
+});
+
+
+
+function setActive(element) {
+  // Remove active class from all list items
+  const allItems = document.querySelectorAll('.faq-item');
+  allItems.forEach(item => item.classList.remove('active'));
+
+  // Add active class to the clicked item
+  element.classList.add('active');
+}
+
+
+
+
+
+
+
+
+// var paragraphs = document.querySelectorAll('.li-para');
+      
+// function showParagraph(index) {
+//   paragraphs.forEach(function(para, i) {
+//     if (i === index) {
+//       para.style.display = 'block';
+//     } else {
+//       para.style.display = 'none';
+//     }
+//   });
+// }
 
 
 

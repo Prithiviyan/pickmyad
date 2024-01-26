@@ -194,6 +194,8 @@ font-family: frank ruhl libre,serif;
     }
 }
 
+
+
 .hero-section{
     display: flex;
     justify-content:center;
@@ -1004,7 +1006,7 @@ margin-left: 100px;
     margin-top: 13px;
     color: #969591;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     font-family: figtree,sans-serif;
 }
 .readmore1{
@@ -1077,7 +1079,7 @@ margin-left: 100px;
     margin-top: 13px;
     color: #969591;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     font-family: figtree,sans-serif;
 }
 .content6-cards .card3{
@@ -1108,7 +1110,7 @@ margin-left: 100px;
     margin-top: 13px;
     color: #969591;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     font-family: figtree,sans-serif;
 }
 .card1-image{
@@ -1157,6 +1159,11 @@ margin-left: 100px;
     font-size: 16px;
     font-family: figtree,sans-serif;
 }
+
+li.active{
+    background-color:#281511;
+    color: white;
+}
 .li-para{
     display: none;
     width: 620px;
@@ -1168,7 +1175,11 @@ margin-left: 100px;
     line-height: 1.5rem;
     transition: 3s;
 }
-.li-para1{
+
+li:first-child div {
+    display: block;
+  }
+/* .li-para1{
     display: none;
     width: 620px;
     font-size: 16px;
@@ -1178,7 +1189,7 @@ margin-left: 100px;
     font-family: figtree,sans-serif;
     line-height: 1.5rem;
     transition: 3s;
-}
+} */
 
 .li-para a{
     text-decoration: none;
@@ -1199,6 +1210,11 @@ margin-left: 100px;
     font-weight: 600;
     font-size: 16px;
     font-family: figtree,sans-serif;
+}
+
+li.active{
+    background-color:#281511;
+    color: white;
 }
 .faq-box{
     width: 600px;
@@ -1334,7 +1350,7 @@ margin-left: 100px;
     font-weight: 600;
     font-size: 12px;
     font-family: figtree,sans-serif;
-    margin-left: 66%;
+    margin-left: 63%;
     width: 700px;
 }
 
@@ -1357,7 +1373,7 @@ margin-left: 100px;
    align-items: center;
 }
 .watsap span{
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 10px;
     font-weight: 400;
     font-family: figtree,sans-serif;
